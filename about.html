@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>whpedia</title>
+<style>
+	
+
+	
+	
+	body, html {
+		margin: 0; /* 去除默认的页面边距 */
+		padding: 0; /* 去除默认的页面内边距 */
+
+		
+	}
+	
+	.image-container {
+		width: 100%; /* 图片容器宽度为100% */
+	}
+
+	.image-container img {
+		width: 100%; /* 图片宽度为100% */
+		display: block; /* 设置为块级元素，占据整行 */
+	}
+
+	ul {	
+		  position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 0;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		border: 1px solid #e7e7e7;
+		background-color: #f3f3f3;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	li a {
+		display: block;
+		color: #666;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+		background-color: #ddd;
+	}
+
+	li a.active {
+		color: white;
+		background-color: #015eea;
+	}
+	.info{
+		  display: flex;
+        justify-content: center;
+         align-items: center;	
+	}
+	.card{
+
+	display: block;	
+	width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+	}
+	.cc{
+		  display: flex;
+  justify-content: center;
+  align-items: center;
+	}
+</style>
+</head>
+<body>
+	<div class="image-container">
+		<img src="title-1.png" alt="logo">
+	</div>
+	
+	<ul>
+		<li><a  href="index.html">Home</a></li>
+		<li><a class="active" href="about.html">About</a></li>
+	</ul>
+
+
+	<div class="cc">
+	
+	<div class="card">
+	
+		<div class="info">
+	Contacts:yukunhang73@gmail.com
+	<br>
+  This site is comming soon.
+	
+	</div>
+	
+	
+	</div>
+	
+	
+	</div>
+	
+
+</body>
+</html>

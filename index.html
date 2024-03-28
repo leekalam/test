@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>whpedia</title>
+<style>
+	
+
+	
+	
+	body, html {
+		margin: 0; /* 去除默认的页面边距 */
+		padding: 0; /* 去除默认的页面内边距 */
+	}
+	
+	.image-container {
+		width: 100%; /* 图片容器宽度为100% */
+	}
+
+	.image-container img {
+		width: 100%; /* 图片宽度为100% */
+		display: block; /* 设置为块级元素，占据整行 */
+	}
+
+	ul {	
+		  position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 0;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		border: 1px solid #e7e7e7;
+		background-color: #f3f3f3;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	li a {
+		display: block;
+		color: #666;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+		background-color: #ddd;
+	}
+
+	li a.active {
+		color: white;
+		background-color: #015eea;
+	}
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 可视窗口的高度 */
+  }
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
+</head>
+<body>
+	<div class="image-container">
+		<img src="title-1.png" alt="logo">
+	</div>
+	
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+	<div class="container">
+		<img class="image" src="1.jpg" alt="qgx">
+	
+	</div>
+
+
+</body>
+</html>
